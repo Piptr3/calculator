@@ -23,18 +23,34 @@ html, body {
 }
 
 .screen {
-    flex: 2;
+    flex: 3;
     display: flex;
     align-items: center;
     justify-content: center;
 }
   
 .display {
-    font-size: 36px;
+    font-size: 48px;
     font-weight: bold;
-    padding: 20px;
+    padding: 35px 30px;
     background-color: whitesmoke;
     width: 280px;
     display: flex;
     justify-content: flex-end;
+}
+
+.keypad {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+.row {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+.btn {
+    height: 60px;
+    width: 80px;
 }
