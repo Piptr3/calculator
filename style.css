@@ -19,10 +19,19 @@ html, body {
 
 .upper-panel {
     flex: 2;
-    background-color: whitesmoke;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .keypad {
     flex: 5;
     background-color: lightgray;
+}
+
+.screen {
+    background-color: whitesmoke;
+    width: 320px;
+    height: 100px;
 }
