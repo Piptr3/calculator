@@ -35,6 +35,7 @@ let display = document.querySelector('.display');
 const clear = document.querySelector("#clear");
 clear.addEventListener('click', () => {
     currentNumber = 0;
+    secondNumber = 0;
     display.textContent = '0';
     active = false;
 })
