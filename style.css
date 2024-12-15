@@ -17,7 +17,7 @@ html, body {
     flex-direction: column;
 }
 
-.screen {
+.upper-panel {
     flex: 2;
     background-color: whitesmoke;
 }
