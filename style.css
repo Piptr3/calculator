@@ -1,0 +1,28 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.calculator {
+    border: 1px black solid;
+    width: 360px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+}
+
+.screen {
+    flex: 2;
+    background-color: whitesmoke;
+}
+
+.keypad {
+    flex: 5;
+    background-color: lightgray;
+}
